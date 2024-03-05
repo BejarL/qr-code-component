@@ -5,7 +5,7 @@
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -14,20 +14,19 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  /* bring your own prefixes */
   transform: translate(-50%, -50%);
 }
 .qr--card {
   text-align: center;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 20px;
   width: 320px;
   height: 497px;
 }
 .qr--img {
-  margin-top: 12px;
+  margin-top: 20px;
   width: 288px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .qr--desc,
 .qr--title {
