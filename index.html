@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,24 +19,32 @@
     <title>Frontend Mentor | QR code component</title>
   </head>
   <body>
-    <div class="container">
-      <div class="qr--card">
-        <img class="qr--img" src="images/image-qr-code.png" alt="QR Code" />
-        <h3 class="qr--title">
-          Improve your front-end skills by building projects
-        </h3>
-        <p class="qr--desc">
-          Scan the QR code to visit Frontend Mentor and take your coding skills
-          to the next level
-        </p>
-      </div>
+    <body>
+      <main class="card">
+        <div class="card-image">
+          <img src="images/image-qr-code.png" alt="qr-code image" />
+        </div>
+        <div class="card-body">
+          <h1 class="card-title">
+            Improve your front-end skills by building projects
+          </h1>
+  
+          <div class="card-content">
+            <p>
+              Scan the QR code to visit Frontend Mentor and take your coding
+              skills to the next level
+            </p>
+          </div>
+        </div>
+      </main>
 
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      <footer class="attribution">
+        <p>
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="https://github.com/BejarL">Lisset Bejar</a>.
-      </div>
-    </div>
+          >. Coded by <a href="https://github.com/BejarL">Lisset Bejar</a>.
+        </p>
+      </footer>
   </body>
 </html>
